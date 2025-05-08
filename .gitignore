@@ -3,3 +3,4 @@ data/*.xlsx
 data/*.json
 enonce/*.pdf
 enonce/*.docx
+ignorer/*.md

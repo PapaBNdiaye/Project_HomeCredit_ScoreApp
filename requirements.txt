@@ -1,0 +1,40 @@
+# Traitement des données
+pandas==2.0.3  # Downgraded from 2.1.0 for compatibility with statsmodels
+numpy==1.24.3
+scikit-learn==1.3.0
+
+# Visualisation
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.16.1
+
+# Profilage des données
+pandas-profiling==3.6.6  # Génération de rapports d'analyse de données
+ydata-profiling==4.16.1  # Version évoluée de pandas-profiling
+
+# Dépendances pour le profilage
+wordcloud==1.9.4        # Génération de nuages de mots
+imagehash==4.3.1        # Hachage d'images pour la comparaison
+phik==0.12.4            # Coefficient de corrélation phi-k
+statsmodels==0.14.4     # Modèles statistiques
+visions==0.8.1          # Système de typage pour pandas
+
+# Explicabilité des modèles
+shap==0.42.1           # Calcul des valeurs de Shapley pour l'interprétation des modèles
+lime==0.2.0.1          # Explications locales des prédictions des modèles
+
+# API et Tableau de bord
+flask==2.2.5           # Framework léger pour le développement d'API web
+dash==2.13.0           # Framework pour la création d'applications web analytiques
+dash-bootstrap-components==1.5.0  # Composants Bootstrap pour Dash
+
+# Utilitaires
+python-dotenv==1.0.0   # Gestion des variables d'environnement
+joblib==1.3.2          # Outils pour la parallélisation et la persistance
+tqdm==4.66.1           # Barres de progression pour les boucles
+
+# Tests
+pytest==7.4.2          # Framework de test pour Python
+
+# Note: Consider upgrading pip to version 25.1.1 using:
+# python -m pip install --upgrade pip

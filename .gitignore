@@ -4,3 +4,4 @@ data/*.json
 enonce/*.pdf
 enonce/*.docx
 ignorer/*.md
+notebooks/*.md

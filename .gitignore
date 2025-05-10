@@ -5,3 +5,4 @@ enonce/*.pdf
 enonce/*.docx
 ignorer/*.md
 notebooks/*.md
+venv/
